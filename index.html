@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Voucher Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="video" width="300" height="225"></video>
+    <canvas id="canvas" style="display: none;"></canvas>
+    <div id="scanCount">Scans: 0/6</div>
+    <div id="voucher" style="display: none;">
+        <img src="voucher.jpg" alt="Voucher">
+        <p>Congratulations! You've collected all vouchers!</p>
+    </div>
+    <script src="jsQR.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
